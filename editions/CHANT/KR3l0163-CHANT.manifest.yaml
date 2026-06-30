@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3l0163/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3l0163/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 志怪錄一卷
+  identifiers:
+    krp: KR3l0163
+  tags:
+    kr-categories: KR3l
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3l0163.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3l0163_001-CHANT.yaml, hash: 'sha256:d4f375f0280c541c2574267ac8480fd30a625c8b44338a3acaf4e2845267ca9d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3l0163_001-CHANT.markers.yaml, hash: 'sha256:abaa6a7607aa4df297d4ce855f3e2811375fb79c101276e49f83c1e50559bc38'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3l0163_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 751
+  label: 志怪錄
+  type: section
+  level: 1
+hash: sha256:310677cdfa2ed00a036b8ac5dea8bbfc0e8a50df832768d607a4213630648844

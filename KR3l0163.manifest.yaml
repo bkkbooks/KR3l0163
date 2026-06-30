@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3l0163/v1
+canonical_location: https://kanripo.org/bkk/KR3l0163/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 志怪錄一卷
+  identifiers:
+    krp: KR3l0163
+  tags:
+    kr-categories: KR3l
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3l0163.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3l0163_001.yaml, hash: 'sha256:7a59eb6ebb916df661a44bfcebb070b1a0900d53740499aaf63d21cb150d877c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3l0163_001.markers.yaml, hash: 'sha256:5524e046545814824f6f71216aee725b6c19cda6496b60dabeec6089121f8f86'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3l0163_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 751
+  label: 志怪錄
+  type: section
+  level: 1
+hash: sha256:65299f4fa232a4e84bb2af50d6c85913b51d364721ef43e430219fd35da40637
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
